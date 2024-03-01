@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./tabel.component.css']
 })
 export class TabelComponent {
-
 }
