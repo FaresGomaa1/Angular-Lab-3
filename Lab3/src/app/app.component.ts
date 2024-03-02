@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IProduct } from './Model/iproduct';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Lab3';
-  renderProduct(product: any): void {
-  }
 }

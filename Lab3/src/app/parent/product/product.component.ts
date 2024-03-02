@@ -39,8 +39,8 @@ export class ProductComponent {
       name: this.proRegForm.value.name,
       category: this.proRegForm.value.category,
       price: price,
-      quantity: 1,
-      discount: 0,
+      quantity: quantity,
+      discount: discount,
       isInSale: this.proRegForm.value.isInSale,
     };
     if (this.proRegForm.valid) {
